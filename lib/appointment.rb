@@ -14,7 +14,7 @@ class Appointment
     @@all
   end
   
-  def add_doctor(doctors)
-    doctors << doctor
+  def add_patient(patients)
+    patients << patient
   end
 end
