@@ -13,4 +13,8 @@ class Appointment
   def self.all
     @@all
   end
+  
+  def add_doctor(doctors)
+    doctors << doctor
+  end
 end
