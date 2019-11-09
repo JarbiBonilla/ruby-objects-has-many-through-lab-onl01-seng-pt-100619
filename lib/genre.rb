@@ -24,3 +24,15 @@ class Genre
     songs << song
   end
 end
+
+
+# genre was the medium
+# appointments is the medium
+# song is the same as patient
+# artist is the same as doctor
+
+
+
+
+
+
