@@ -13,8 +13,5 @@ class Appointment
   def self.all
     @@all
   end
-  
-  def add_patient(patients)
-    patients << patient
-  end
+
 end
