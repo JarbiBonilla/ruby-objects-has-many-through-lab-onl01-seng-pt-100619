@@ -24,8 +24,11 @@ class Patient
   
   
   def doctors
-    
+    Appointment.all.collect do |doc|
+      appointment.doc == self
+    end
   end
+end
   
   
   
